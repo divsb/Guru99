@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MavenJenkins Suite" duration-ms="44641" started-at="2017-02-08T04:34:58Z" finished-at="2017-02-08T04:35:42Z">
+    <groups>
+    </groups>
+    <test name="EditCustomer Test" duration-ms="26489" started-at="2017-02-08T04:34:58Z" finished-at="2017-02-08T04:35:24Z">
+      <class name="com.Mycomp.MavenJenkins.MavenJenkins.EditCustomer">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.Mycomp.MavenJenkins.MavenJenkins.EditCustomer@1a407d53]" name="launchBrowser" is-config="true" duration-ms="8473" started-at="2017-02-07T23:34:58Z" finished-at="2017-02-07T23:35:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="customerEdit()[pri:0, instance:com.Mycomp.MavenJenkins.MavenJenkins.EditCustomer@1a407d53]" name="customerEdit" duration-ms="17980" started-at="2017-02-07T23:35:06Z" finished-at="2017-02-07T23:35:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerEdit -->
+      </class> <!-- com.Mycomp.MavenJenkins.MavenJenkins.EditCustomer -->
+    </test> <!-- EditCustomer Test -->
+    <test name="DeleteCustomer Test" duration-ms="18099" started-at="2017-02-08T04:35:24Z" finished-at="2017-02-08T04:35:42Z">
+      <class name="com.Mycomp.MavenJenkins.MavenJenkins.DeleteCustomer">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.Mycomp.MavenJenkins.MavenJenkins.DeleteCustomer@735f7ae5]" name="launchBrowser" is-config="true" duration-ms="5196" started-at="2017-02-07T23:35:24Z" finished-at="2017-02-07T23:35:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="custDelete()[pri:0, instance:com.Mycomp.MavenJenkins.MavenJenkins.DeleteCustomer@735f7ae5]" name="custDelete" duration-ms="12901" started-at="2017-02-07T23:35:30Z" finished-at="2017-02-07T23:35:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- custDelete -->
+      </class> <!-- com.Mycomp.MavenJenkins.MavenJenkins.DeleteCustomer -->
+    </test> <!-- DeleteCustomer Test -->
+  </suite> <!-- MavenJenkins Suite -->
+</testng-results>

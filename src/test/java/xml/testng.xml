@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MavenJenkins Suite">
+  
+  
+  <test name="EditCustomer Test">
+    <classes>
+      <class name="com.Mycomp.MavenJenkins.MavenJenkins.EditCustomer"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="DeleteCustomer Test">
+    <classes>
+      <class name="com.Mycomp.MavenJenkins.MavenJenkins.DeleteCustomer"/>
+    </classes>
+   </test> <!-- Test -->
+</suite> <!-- Suite -->
+  
+  
